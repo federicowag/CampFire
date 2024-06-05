@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "nombre": "Refugio"
+    },
+    {
+      "id": 2,
+      "nombre": "Dormir"
+    },
+    {
+      "id": 3,
+      "nombre": "Equipaje"
+    },
+    {
+      "id": 4,
+      "nombre": "Cocina"
+    },
+    {
+      "id": 5,
+      "nombre": "Iluminación"
+    },
+    {
+      "id": 6,
+      "nombre": "Hidratación"
+    },
+    {
+      "id": 7,
+      "nombre": "Salud y seguridad"
+    }
+  ]
+  

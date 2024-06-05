@@ -1,0 +1,91 @@
+[
+    {
+      "id": 1,
+      "nombre": "Tienda de campaña para 4 personas",
+      "imagen": "url_de_imagen1.jpg",
+      "precio": 120.99,
+      "descripcion": "Tienda de campaña impermeable y resistente al viento para 4 personas.",
+      "categoria": {
+        "id": 1,
+        "nombre": "Refugio"
+      }
+    },
+    {
+      "id": 2,
+      "nombre": "Saco de dormir",
+      "imagen": "url_de_imagen2.jpg",
+      "precio": 45.50,
+      "descripcion": "Saco de dormir de tres estaciones, ideal para temperaturas de hasta -5°C.",
+      "categoria": {
+        "id": 2,
+        "nombre": "Dormir"
+      }
+    },
+    {
+      "id": 3,
+      "nombre": "Mochila de senderismo 50L",
+      "imagen": "url_de_imagen3.jpg",
+      "precio": 80.00,
+      "descripcion": "Mochila ergonómica y resistente con capacidad de 50 litros, perfecta para excursiones largas.",
+      "categoria": {
+        "id": 3,
+        "nombre": "Equipaje"
+      }
+    },
+    {
+      "id": 4,
+      "nombre": "Estufa portátil de camping",
+      "imagen": "url_de_imagen4.jpg",
+      "precio": 35.00,
+      "descripcion": "Estufa portátil de gas, ligera y compacta, con encendido piezoeléctrico.",
+      "categoria": {
+        "id": 4,
+        "nombre": "Cocina"
+      }
+    },
+    {
+      "id": 5,
+      "nombre": "Linterna LED recargable",
+      "imagen": "url_de_imagen5.jpg",
+      "precio": 25.99,
+      "descripcion": "Linterna LED recargable con múltiples modos de iluminación y resistencia al agua.",
+      "categoria": {
+        "id": 5,
+        "nombre": "Iluminación"
+      }
+    },
+    {
+      "id": 6,
+      "nombre": "Colchoneta inflable",
+      "imagen": "url_de_imagen6.jpg",
+      "precio": 28.50,
+      "descripcion": "Colchoneta inflable ligera y cómoda, fácil de transportar y almacenar.",
+      "categoria": {
+        "id": 2,
+        "nombre": "Dormir"
+      }
+    },
+    {
+      "id": 7,
+      "nombre": "Filtro de agua portátil",
+      "imagen": "url_de_imagen7.jpg",
+      "precio": 20.00,
+      "descripcion": "Filtro de agua portátil que elimina bacterias y protozoos, ideal para camping y excursiones.",
+      "categoria": {
+        "id": 6,
+        "nombre": "Hidratación"
+      }
+    },
+    {
+      "id": 8,
+      "nombre": "Kit de primeros auxilios",
+      "imagen": "url_de_imagen8.jpg",
+      "precio": 18.99,
+      "descripcion": "Kit de primeros auxilios compacto y completo, ideal para emergencias en exteriores.",
+      "categoria": {
+        "id": 7,
+        "nombre": "Salud y seguridad"
+      }
+    }
+  ]
+  
