@@ -68,7 +68,7 @@
     {
       "id": 7,
       "nombre": "Filtro de agua portátil",
-      "imagen": "url_de_imagen7.jpg",
+      "imagen": "/src/assets/img/filtroagua.PNG",
       "precio": 20.00,
       "descripcion": "Filtro de agua portátil que elimina bacterias y protozoos, ideal para camping y excursiones.",
       "categoria": {
@@ -79,7 +79,7 @@
     {
       "id": 8,
       "nombre": "Kit de primeros auxilios",
-      "imagen": "url_de_imagen8.jpg",
+      "imagen": "/src/assets/img/kitauxilio.PNG",
       "precio": 18.99,
       "descripcion": "Kit de primeros auxilios compacto y completo, ideal para emergencias en exteriores.",
       "categoria": {
