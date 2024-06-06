@@ -65,13 +65,12 @@
 }
 
 .producto img {
-    width: 100%;
-    height: auto;
-    max-width: 200px; 
+    height: 80%;
+    object-fit: fill;
+    max-width: 200px;
     margin-bottom: 1rem;
     border-radius: .5rem;
 }
-
 
 .item-detail-container {
     display: flex;
