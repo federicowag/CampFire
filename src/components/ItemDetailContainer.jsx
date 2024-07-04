@@ -1,30 +1,59 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import data from "../data/productos.json";
+import { ItemDetail } from "./ItemDetail"
+import { doc, getDoc } from 'firebase/firestore';
+import { db } from './firebase/config';
+
 
 const ItemDetailContainer = () => {
+  let { itemId } = useParams();
+  let [producto, setProducto] = useState(undefined);
+  let [loading, setLoading] = useState(true);
+  let [error, setError] = useState(null);
 
-    let { itemId } = useParams();
-    let [producto, setProducto] = useState(undefined);
+  useEffect(() => {
+    const fetchProduct = async () => {
+      setLoading(true);
+      setError(null); 
 
-    useEffect(() => {
-        setProducto(data.find((prod) => prod.id === parseInt(itemId)));
-    }, [itemId])
-    
+      try {
+        if (!itemId) {
+          throw new Error('ID del producto no proporcionado');
+        }
 
-    return (
-      <div className='item-detail-container'> {
-        producto ? 
-        <div className='producto-detail'>
-          <img className='producto-detail-image' src={producto.imagen} />
-          <h2 className='producto-detail-name'>{producto.nombre}</h2>  
-          <p className='producto-detail-price'>${producto.precio}</p>
-          <p className='producto-detail-description'>{producto.descripcion}</p>
-        </div>
-        : "Espere..."
+        const docRef = doc(db, "productos", itemId);
+        const docSnap = await getDoc(docRef);
+
+        if (docSnap.exists()) {
+          setProducto({ id: docSnap.id, ...docSnap.data() });
+        } else {
+          console.log('No existe el documento');
+          setError('No existe el documento');
+        }
+      } catch (error) {
+        console.error('Error al recuperar el producto:', error);
+        setError('Error al recuperar el producto. Por favor, inténtelo de nuevo más tarde.');
+      } finally {
+        setLoading(false);
       }
-      </div>
-    )
-  }
+    };
 
-export default ItemDetailContainer
+    fetchProduct();
+  }, [itemId]);
+
+  return (
+    <div className='item-detail-container'>
+      {loading ? (
+        'Espere...'
+      ) : error ? (
+        <div className='error'>{error}</div>
+      ) : producto ? (
+        <ItemDetail producto={producto} />
+      ) : (
+        'Producto no encontrado.'
+      )}
+    </div>
+  );
+};
+
+export default ItemDetailContainer;

@@ -1,17 +1,17 @@
 import React from 'react'
 import { NavBar } from './NavBar'
-import { Carrito } from './Carrito'
+import { CartWidget } from './CartWidget'
 import { Link } from 'react-router-dom'
 
-
-
-export const Header = (props) => {
-  
+const Header = () => {
   return (
-    <header className="header">
-        <Link to="/"><h1>CampFire</h1></Link>
-        <NavBar />
-        <Carrito numerito={props.numerito} />
+    <header>
+      <nav>
+        <Link to="/">Inicio</Link>
+        <Link to="/carrito">Carrito</Link>
+      </nav>
     </header>
-  )
-}
+  );
+};
+
+export default Header;
