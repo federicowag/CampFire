@@ -5,13 +5,14 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <header>
-      <nav>
-        <Link to="/">Inicio</Link>
-        <Link to="/carrito">Carrito</Link>
-      </nav>
+    <header className="header">
+         <Link to="/" className="logo-link">
+         <img src="/img/logo.png" alt="Foto 1" className="logo-img" />
+      </Link>
+      <NavBar />
+      <CartWidget />
     </header>
-  );
+  )
 };
 
 export default Header;

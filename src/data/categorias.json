@@ -1,30 +1,30 @@
 [
     {
-      "id": 1,
+      "id": "refugio",
       "nombre": "Refugio"
     },
     {
-      "id": 2,
+      "id": "dormir",
       "nombre": "Dormir"
     },
     {
-      "id": 3,
+      "id": "equipaje",
       "nombre": "Equipaje"
     },
     {
-      "id": 4,
+      "id": "cocina",
       "nombre": "Cocina"
     },
     {
-      "id": 5,
+      "id": "iluminacion",
       "nombre": "Iluminación"
     },
     {
-      "id": 6,
+      "id": "hidratación",
       "nombre": "Hidratación"
     },
     {
-      "id": 7,
+      "id": "salud y seguridad",
       "nombre": "Salud y seguridad"
     }
   ]
