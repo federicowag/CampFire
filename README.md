@@ -1,7 +1,3 @@
-Aquí tienes un ejemplo de un README enfocado en tu sitio web "CampFire":
-
----
-
 # CampFire
 
 Bienvenido al repositorio de CampFire, una página web dedicada a la venta de productos para actividades al aire libre. En este proyecto, he utilizado una variedad de tecnologías y librerías para proporcionar una experiencia robusta y agradable para nuestros usuarios.
