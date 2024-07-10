@@ -24,7 +24,7 @@
     {
       "id": 3,
       "nombre": "Mochila de senderismo 50L",
-      "imagen": "/public/img/bolsosenderismo.PNG",
+      "imagen": "/img/bolsosenderismo.PNG",
       "precio": 80.00,
       "descripcion": "Mochila ergonómica y resistente con capacidad de 50 litros, perfecta para excursiones largas.",
       "categoria": {
