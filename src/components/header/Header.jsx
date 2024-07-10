@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="header">
          <Link to="/" className="logo-link">
-         <img src="/public/img/logo.jfif" alt="Foto 1" className="logo-img" />
+         <img src="/img/logo.jfif" alt="Foto 1" className="logo-img" />
       </Link>
       <NavBar />
       <CartWidget />
