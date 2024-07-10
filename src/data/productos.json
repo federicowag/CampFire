@@ -2,7 +2,7 @@
     {
       "id": 1,
       "nombre": "Tienda de campaña para 4 personas",
-      "imagen": "/src/assets/img/CARPA4P.PNG",
+      "imagen": "/src/public/img/CARPA4P.PNG",
       "precio": 120.99,
       "descripcion": "Tienda de campaña impermeable y resistente al viento para 4 personas.",
       "categoria": {
