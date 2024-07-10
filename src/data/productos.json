@@ -2,7 +2,7 @@
     {
       "id": 1,
       "nombre": "Tienda de campaña para 4 personas",
-      "imagen": "/src/public/img/CARPA4P.PNG",
+      "imagen": "/public/img/CARPA4P.PNG",
       "precio": 120.99,
       "descripcion": "Tienda de campaña impermeable y resistente al viento para 4 personas.",
       "categoria": {
@@ -13,7 +13,7 @@
     {
       "id": 2,
       "nombre": "Saco de dormir",
-      "imagen": "/src/assets/img/bolsadormir.PNG",
+      "imagen": "/public/img/bolsadormir.PNG",
       "precio": 45.50,
       "descripcion": "Saco de dormir de tres estaciones, ideal para temperaturas de hasta -5°C.",
       "categoria": {
@@ -24,7 +24,7 @@
     {
       "id": 3,
       "nombre": "Mochila de senderismo 50L",
-      "imagen": "/src/assets/img/bolsosenderismo.PNG",
+      "imagen": "/public/img/bolsosenderismo.PNG",
       "precio": 80.00,
       "descripcion": "Mochila ergonómica y resistente con capacidad de 50 litros, perfecta para excursiones largas.",
       "categoria": {
@@ -35,7 +35,7 @@
     {
       "id": 4,
       "nombre": "Estufa portátil de camping",
-      "imagen": "/src/assets/img/estufa.PNG",
+      "imagen": "/public/img/estufa.PNG",
       "precio": 35.00,
       "descripcion": "Estufa portátil de gas, ligera y compacta, con encendido piezoeléctrico.",
       "categoria": {
@@ -46,7 +46,7 @@
     {
       "id": 5,
       "nombre": "Linterna LED recargable",
-      "imagen": "/src/assets/img/linterna.PNG",
+      "imagen": "/public/img/linterna.PNG",
       "precio": 25.99,
       "descripcion": "Linterna LED recargable con múltiples modos de iluminación y resistencia al agua.",
       "categoria": {
@@ -57,7 +57,7 @@
     {
       "id": 6,
       "nombre": "Colchoneta inflable",
-      "imagen": "/src/assets/img/colchon.PNG",
+      "imagen": "/public/img/colchon.PNG",
       "precio": 28.50,
       "descripcion": "Colchoneta inflable ligera y cómoda, fácil de transportar y almacenar.",
       "categoria": {
@@ -68,7 +68,7 @@
     {
       "id": 7,
       "nombre": "Filtro de agua portátil",
-      "imagen": "/src/assets/img/filtroagua.PNG",
+      "imagen": "/public/img/filtroagua.PNG",
       "precio": 20.00,
       "descripcion": "Filtro de agua portátil que elimina bacterias y protozoos, ideal para camping y excursiones.",
       "categoria": {
@@ -79,7 +79,7 @@
     {
       "id": 8,
       "nombre": "Kit de primeros auxilios",
-      "imagen": "/src/assets/img/kitauxilio.PNG",
+      "imagen": "/public/img/kitauxilio.PNG",
       "precio": 18.99,
       "descripcion": "Kit de primeros auxilios compacto y completo, ideal para emergencias en exteriores.",
       "categoria": {
