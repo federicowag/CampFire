@@ -49,10 +49,4 @@ Bienvenido al repositorio de CampFire, una página web dedicada a la venta de pr
 4. Haz push a la rama (`git push origin nueva-funcionalidad`).
 5. Abre un Pull Request.
 
-## Licencia
-
-Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
-
----
-
 ¡Gracias por visitar CampFire y contribuir a mejorar nuestra plataforma!
